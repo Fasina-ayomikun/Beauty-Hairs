@@ -1280,11 +1280,11 @@ option {
   flex-direction: column;
   align-items: flex-start;
 }
-.names h4,
-.names p {
+.name h4,
+.name p {
   margin: 2px;
 }
-.names p {
+.name p {
   color: rgba(0, 0, 0, 0.9);
 }
 @media (hover: hover) {
