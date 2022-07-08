@@ -21,7 +21,7 @@ function LandingPage() {
               nam, accusantium omnis qui!
             </p>
             <button onClick={() => loginWithRedirect()}>
-              <Link to='/home'>Login</Link>
+              <Link to='/home'>Get Started</Link>
             </button>
           </div>
         </div>
