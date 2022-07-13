@@ -5,7 +5,7 @@ import { Navigate } from "react-router-dom";
 function PrivateRoute({ children }) {
   const { user } = useAuth0();
   if (!user) {
-    return <Navigate to='/home'></Navigate>;
+    return <Navigate to='/landing'></Navigate>;
   }
   return children;
 }

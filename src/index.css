@@ -74,6 +74,11 @@ nav {
   justify-content: space-between;
   padding: 30px 0;
 }
+input,
+select,
+button {
+  outline: none;
+}
 .nav-links {
   display: flex;
   align-items: center;
@@ -1280,11 +1285,11 @@ option {
   flex-direction: column;
   align-items: flex-start;
 }
-.names h4,
-.names p {
+.name h4,
+.name p {
   margin: 2px;
 }
-.names p {
+.name p {
   color: rgba(0, 0, 0, 0.9);
 }
 @media (hover: hover) {
@@ -1579,6 +1584,16 @@ option {
   .box-container,
   .checkout-btn {
     min-width: 300px;
+  }
+  .search-input {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 30px;
+  }
+  .search-input input,
+  .search-input select {
+    width: 100%;
+    margin: 0;
   }
 }
 @media (max-width: 347px) {

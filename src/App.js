@@ -17,8 +17,8 @@ function App() {
     <AuthWrapper>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<LandingPage />} />
-          <Route path='home' element={<Home />} />
+          <Route path='/landing' element={<LandingPage />} />
+          <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
           <Route path='staffs' element={<Staffs />} />

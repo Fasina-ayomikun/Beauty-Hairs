@@ -14,7 +14,7 @@ function Navbar() {
         <img src={image} alt='Beauty Hairs' className='logo' />
         <ul className='nav-links'>
           <li className='nav-link'>
-            <NavLink to='/home' activeclasname='active'>
+            <NavLink to='/' activeclasname='active'>
               Home
             </NavLink>
           </li>
@@ -49,7 +49,9 @@ function Navbar() {
             {isAuthenticated ? (
               <BsFillPersonDashFill
                 className='login-icon'
-                onClick={() => logout({ returnTo: window.location.origin })}
+                onClick={() =>
+                  logout({ returnTo: `${window.location.origin}/landing` })
+                }
               />
             ) : (
               <BsFillPersonPlusFill
