@@ -1149,6 +1149,7 @@ option {
 }
 .sidebar ul svg {
   margin: 0;
+  color: var(--gold);
 }
 .sidebar ul {
   width: 100%;
