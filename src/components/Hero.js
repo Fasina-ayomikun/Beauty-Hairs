@@ -13,7 +13,7 @@ function Hero({ image, title }) {
         }
         return newCount;
       });
-    }, 6000);
+    }, 5000);
   }, [counter]);
   return (
     <section className='hero-section'>

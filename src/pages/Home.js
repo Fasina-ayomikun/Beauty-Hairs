@@ -12,7 +12,7 @@ import Sidebar from "../components/Sidebar";
 import { heroimages } from "../data/femaledata";
 function Home() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
   return (
     <>
