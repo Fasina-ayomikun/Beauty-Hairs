@@ -86,6 +86,7 @@ button {
 }
 .nav-link {
   margin-left: 30px;
+  cursor: pointer;
 }
 .nav-link a {
   color: var(--black);
