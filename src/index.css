@@ -114,7 +114,10 @@ li .active {
 /* Home Page */
 
 /* Hero */
-
+.hero-section {
+  overflow: hidden;
+  width: 100vw;
+}
 .hero-container {
   padding: 0 50px;
   max-width: var(--max-width);
@@ -123,17 +126,13 @@ li .active {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
-
   height: 80vh;
 }
 .img-container {
   height: 700px;
   aspect-ratio: 1;
-  overflow: visible;
   border-radius: 50%;
-  position: absolute;
-  right: -5%;
-  top: 150px;
+  margin-right: -250px;
   z-index: -1;
   border: 16px solid var(--gold);
 }
